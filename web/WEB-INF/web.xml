@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <welcome-file-list>
+        <welcome-file>selfhelp.jsp</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>wechat</servlet-name>
+        <servlet-class>com.servlets.WeChatServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>wechat</servlet-name>
+        <url-pattern>/csdn</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>download</servlet-name>
+        <servlet-class>com.servlets.DownServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>download</servlet-name>
+        <url-pattern>/csdn/download</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>selfhelp</servlet-name>
+        <servlet-class>com.servlets.SeflHelpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>selfhelp</servlet-name>
+        <url-pattern>/csdn/selfhelp.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>valicode</servlet-name>
+        <servlet-class>com.servlets.ValicodeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>valicode</servlet-name>
+        <url-pattern>/csdn/valicode.do</url-pattern>
+    </servlet-mapping>
+
+
+    <!--<error-page>-->
+        <!--<error-code>404</error-code>-->
+        <!--<location>/WEB-INF/message.jsp</location>-->
+    <!--</error-page>-->
+    <error-page>
+        <error-code>500</error-code>
+        <location>/WEB-INF/error.jsp</location>
+    </error-page>
+    <!--<error-page>-->
+        <!--<error-code>403</error-code>-->
+        <!--<location>/WEB-INF/message.jsp</location>-->
+    <!--</error-page>-->
+</web-app>

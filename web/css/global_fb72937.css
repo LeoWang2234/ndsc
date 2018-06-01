@@ -1,0 +1,111 @@
+body, button, input, select, textarea {
+    font: 12px/1.5 "Microsoft YaHei", tahoma, arial, "宋体";
+    color: #666
+}
+
+input::-ms-clear {
+    display: none
+}
+
+a {
+    color: #06c;
+    text-decoration: none
+}
+
+a:hover, a:active, a:focus {
+    color: #06c;
+    text-decoration: underline
+}
+
+.global-clearfix:after {
+    content: '.';
+    display: block;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    clear: both
+}
+
+.global-clearfix {
+    zoom: 1
+}
+
+.global-clear {
+    clear: both
+}
+
+.global-bold {
+    font-weight: 700
+}
+
+.global-center {
+    text-align: center
+}
+
+.global-gray2 {
+    color: #AAB2BF
+}
+
+.global-float-left {
+    float: left
+}
+
+.global-float-right {
+    float: right
+}
+
+.global-uploader {
+    position: absolute;
+    top: 0px;
+    left: 22px;
+    opacity: 0;
+    height: 34px;
+    width: 115px;
+    display: block
+}
+
+.global-pdl-30 {
+    padding-left: 30px
+}
+
+.global-pdl-25 {
+    padding-left: 25px
+}
+
+.global-ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.global-disabled, .global-disabled:hover, .global-disabled:active {
+    filter: alpha(opacity=50);
+    -ms-filter: "alpha(opacity=50)";
+    opacity: .5;
+    color: #ccc;
+    cursor: default !important
+}
+
+.evtRedPackGuide {
+    width: 180px;
+    height: 70px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    float: right;
+    z-index: 999;
+    background: url(//yun.baidu.com/ppres/static/images/eventRedPack.jpg) no-repeat scroll 0 0
+}
+
+.evtRedPackGuide .closeGuide {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    float: right;
+    position: relative
+}
+
+.module-personal .personal-wrapper .img-data .personal-name .personal-name-list .person-time-detail {
+    font-family: tahoma, arial, "宋体"
+}
