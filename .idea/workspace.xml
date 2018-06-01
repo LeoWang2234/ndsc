@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52ed121f-94b0-4f46-93fe-0655573a5046" name="Default" comment="" />
+    <list default="true" id="52ed121f-94b0-4f46-93fe-0655573a5046" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/wenku/wenku.war" afterPath="$PROJECT_DIR$/out/artifacts/wenku/wenku.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/download3.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/download3.jsp" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,6 +24,7 @@
             <state relative-caret-position="481">
               <caret line="54" column="30" lean-forward="false" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
               <folding>
+                <element signature="imports" expanded="false" />
                 <element signature="method#CsdnDownloader#0;class#CsdnDownloader#0" expanded="false" />
               </folding>
             </state>
@@ -36,13 +41,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeflHelpServlet.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SeflHelpServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/servlets/SeflHelpServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="326">
               <caret line="140" column="42" lean-forward="false" selection-start-line="140" selection-start-column="42" selection-end-line="140" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3692#3700#0" expanded="true" />
+                <element signature="e#6063#7006#0" expanded="true" />
+                <element signature="e#7005#7006#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,33 +76,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenerateTokens.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/GenerateTokens.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="11" column="72" lean-forward="false" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MailSender.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/MailSender.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="741">
               <caret line="57" column="17" lean-forward="false" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="download3.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="download3.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/download3.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="343">
+              <caret line="51" column="0" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="51" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="download.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/download.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="28" column="7" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="28" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -103,8 +109,8 @@
       <file leaf-file-name="download2.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/download2.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+            <state relative-caret-position="286">
+              <caret line="22" column="141" lean-forward="true" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="141" />
               <folding />
             </state>
           </provider>
@@ -116,6 +122,7 @@
             <state relative-caret-position="611">
               <caret line="55" column="33" lean-forward="false" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
               <folding>
+                <element signature="imports" expanded="false" />
                 <marker date="1526057683000" expanded="true" signature="3448:3622" ph="{...}" />
               </folding>
             </state>
@@ -225,9 +232,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/csdn/CsdnDownloader.java" />
         <option value="$PROJECT_DIR$/src/test/java/GetRealAddressTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mail/MailSender.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/download3.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/servlets/SeflHelpServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/download3.jsp" />
       </list>
     </option>
   </component>
@@ -1314,7 +1321,7 @@
       <workItem from="1526453575488" duration="40000" />
       <workItem from="1526874556839" duration="26836000" />
       <workItem from="1527302194008" duration="112245000" />
-      <workItem from="1527818894960" duration="749000" />
+      <workItem from="1527818894960" duration="5591000" />
     </task>
     <servers />
   </component>
@@ -1351,7 +1358,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191290000" />
+    <option name="totallyTimeSpent" value="196132000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1364,6 +1371,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="23" width="1254" height="777" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1385,9 +1393,9 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48321167" sideWeight="0.49669966" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20132013" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48321167" sideWeight="0.49669966" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9080292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30033004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1692,14 +1700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/download.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/SCaptcha.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
@@ -1729,7 +1729,7 @@
         <state relative-caret-position="221">
           <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1838,6 +1838,7 @@
         <state relative-caret-position="481">
           <caret line="54" column="30" lean-forward="false" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="method#CsdnDownloader#0;class#CsdnDownloader#0" expanded="false" />
           </folding>
         </state>
@@ -1848,6 +1849,7 @@
         <state relative-caret-position="611">
           <caret line="55" column="33" lean-forward="false" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
           <folding>
+            <element signature="imports" expanded="false" />
             <marker date="1526057683000" expanded="true" signature="3448:3622" ph="{...}" />
           </folding>
         </state>
@@ -1857,16 +1859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
           <caret line="57" column="17" lean-forward="false" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/download2.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1887,14 +1879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/download3.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -1909,7 +1893,34 @@
           <caret line="140" column="42" lean-forward="false" selection-start-line="140" selection-start-column="42" selection-end-line="140" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3692#3700#0" expanded="true" />
+            <element signature="e#6063#7006#0" expanded="true" />
+            <element signature="e#7005#7006#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/download.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="28" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/download2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="22" column="141" lean-forward="true" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="141" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/download3.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="51" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

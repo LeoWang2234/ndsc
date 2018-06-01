@@ -26,6 +26,8 @@
             out.print(test);
 
         %>" id="resourcelink"  referrerPolicy="no-referrer" />
+
+    <button class="new-btn-login" id="subBtn" type="button">若没有自动下载，请点击这里</button>
     </a>
 
 
@@ -35,14 +37,18 @@
 <script type="text/javascript">
 
     $(function(){
-        var link = document.getElementById("resourcelink").getAttribute("href");
-        var arg ='\u003cscript\u003etop.location.replace("'+link+'")\u003c/script\u003e';
-        var iframe = document.createElement('iframe');
-        iframe.src='javascript:window.name;';
-        iframe.name=arg;
-        document.body.appendChild(iframe);
-        document.body.appendChild(document.createElement('iframe')).src='javascript:"<script>top.location.replace(\''+link+'\')<\/script>"';
+        $("#subBtn").trigger("click");
     });
+
+//    $(function(){
+//        var link = document.getElementById("resourcelink").getAttribute("href");
+//        var arg ='\u003cscript\u003etop.location.replace("'+link+'")\u003c/script\u003e';
+//        var iframe = document.createElement('iframe');
+//        iframe.src='javascript:window.name;';
+//        iframe.name=arg;
+//        document.body.appendChild(iframe);
+//        document.body.appendChild(document.createElement('iframe')).src='javascript:"<script>top.location.replace(\''+link+'\')<\/script>"';
+//    });
 
 </script>
 
