@@ -40,7 +40,7 @@ public class MailSender {
     private String to = ""; // 收件人地址
     private String affixPath = PropertiesProcessor.getProperty("csdn_download_file_path");
     ; // 附件地址
-    private String pwd = "wangcheng.163"; // 密码
+    private String pwd = ""; // 密码
     private String subject = "测试邮件"; // 邮件标题
     private String taoBao = "https://item.taobao.com/item.htm?spm=a230r.1.14.103.74a1bd22snEtmj&id=569855704313&ns=1&abbucket=13#detail";
 
@@ -205,7 +205,7 @@ public class MailSender {
     private static Session getSession() {
 
         final String FROM = "wangcheng2234@163.com";//发件人的email
-        final String PWD = "wangcheng.163";//发件人密码
+        final String PWD = "";//发件人密码
         Properties props = new Properties();
         props.put("mail.smtp.host", "smtp.163.com");//设置服务器地址
         props.put("mail.store.protocol", "smtp");//设置协议
