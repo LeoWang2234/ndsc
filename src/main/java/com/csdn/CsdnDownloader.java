@@ -130,46 +130,10 @@ public class CsdnDownloader {
     }
 
     private Response getResponse2(String url, String resource_url) throws IOException {
-        Response resource_download;
-        resource_download = Jsoup.connect(resource_url)
-                .method(Method.GET).header("User-Agent", "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:29.0) Gecko/20100101 Firefox/29.0")
-                .header("Upgrade-Insecure-Requests", "1")
-                .header("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8")
-                .header("Accept-Encoding", "gzip, deflate, br")
-                .header("Accept-Language", "zh-CN,zh;q=0.9,en;q=0.8")
-                .header("Referer", url)
-                .cookie("BT", "1527138124880")
-                .cookie("AU", "B72")
-                .cookie("UN", "test23423")
-                .cookie("UserNick", "test23423")
-                .cookie("UserInfo", "JH%2B6%2FG9RDitrX%2BMooC4kfVcd3fTxpUoLNPFz8oa9CWwaa0PVUt3eklbzZuR8Y8doN1XGfFiUAsu6awDDwAv7O7pUEG0bqGXiNlh7HJpfSihlWEqMomM8WkN%2BmhDRLBGcUOckDHJqMSIiPRWanw%2FboQ%3D%3D")
-                .cookie("UserName", "test23423")
-                .cookie("CASTGC", "TGT-34958-frTb9jHk5SWOBKxBq3NhZREVcFfpKBlWOi5gFhJGL43cQbFb1i-passport.csdn.net")
-//                    .cookies(resource_page.cookies())
-                .followRedirects(false)
-                .execute();
-        return resource_download;
+      
     }
     private Response getResponse1(String url, String resource_url) throws IOException {
-        Response resource_download;
-        resource_download = Jsoup.connect(resource_url)
-                .method(Method.GET).header("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36")
-                .header("Upgrade-Insecure-Requests", "1")
-                .header("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8")
-                .header("Accept-Encoding", "gzip, deflate, br")
-                .header("Accept-Language", "zh-CN,zh;q=0.9,en;q=0.8")
-                .header("Referer", url)
-                .cookie("BT", "1527138124880")
-                .cookie("AU", "B72")
-                .cookie("UN", "test23423")
-                .cookie("UserNick", "test23423")
-                .cookie("UserInfo", "JH%2B6%2FG9RDitrX%2BMooC4kfVcd3fTxpUoLNPFz8oa9CWwaa0PVUt3eklbzZuR8Y8doN1XGfFiUAsu6awDDwAv7O7pUEG0bqGXiNlh7HJpfSihlWEqMomM8WkN%2BmhDRLBGcUOckDHJqMSIiPRWanw%2FboQ%3D%3D")
-                .cookie("UserName", "test23423")
-                .cookie("CASTGC", "TGT-34958-frTb9jHk5SWOBKxBq3NhZREVcFfpKBlWOi5gFhJGL43cQbFb1i-passport.csdn.net")
-//                    .cookies(resource_page.cookies())
-                .followRedirects(false)
-                .execute();
-        return resource_download;
+       
     }
 
     private void getFileName() throws UnsupportedEncodingException {
